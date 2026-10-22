@@ -1,0 +1,14 @@
+[project]
+name = "leadqual"
+version = "0.1.0"
+description = "Enrich-then-qualify pipeline: deterministic checks first, Claude for the judgement calls."
+requires-python = ">=3.10"
+dependencies = ["anthropic>=2.0", "pydantic>=2.0"]
+license = { text = "MIT" }
+
+[project.optional-dependencies]
+dev = ["pytest>=8"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]

@@ -1,0 +1,7 @@
+{
+  "description": "B2B SaaS companies, 50-1000 employees, selling to revenue teams",
+  "employee_count": { "min": 50, "max": 1000 },
+  "target_titles": ["head of sales", "vp sales", "sales director", "revops", "revenue operations", "head of growth", "founder", "ceo"],
+  "exclude_titles": ["intern", "assistant", "student", "freelance"],
+  "exclude_industries": ["staffing", "recruiting agency", "government"]
+}
